@@ -1,0 +1,63 @@
+.RightSide{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: flex-start;
+    justify-content: start;
+    width: 95%;
+    max-height: 100vh;
+    min-height: 300px;
+    height: 100%;
+}
+
+.bot-container-video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+
+.bot-canvas{
+  height: 100%;
+}
+
+.BOTsection {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    align-items: left;
+    vertical-align: top;
+  }
+  .BOTsection h1{
+    font-size: 2.3rem;
+  }
+.studentreview > h3 > span {
+    color: #004ea0;
+  }
+
+
+@media screen and (max-width: 1200px) {
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .RightSide{
+        width: 100%;
+        margin-top: 0;
+    }
+    .RightSide>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

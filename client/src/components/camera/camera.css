@@ -1,0 +1,9 @@
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera-wrapper{
+    padding: 3rem;
+}

@@ -1,0 +1,39 @@
+.RightSidePDF{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 1rem; */
+
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.studentreview > h3 > span {
+    color: #004ea0;
+  }
+
+
+@media screen and (max-width: 1200px) {
+    .RightSidePDF{
+        justify-content: center;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .RightSidePDF{
+        width: 100%;
+        margin-top: 0;
+    }
+    .RightSidePDF>div{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+}
